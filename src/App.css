@@ -1,0 +1,94 @@
+/* #one{
+  background-color: red;
+}
+
+#nav-link{
+  color: white;
+}
+ */
+
+
+ *{
+  padding: 0px;
+  margin: 0px;
+ }
+
+ /* NAVBAR  */
+ #header{
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+
+ .head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+ }
+
+ .head h2 {
+  font-weight: 700;
+  font-size: 25px;
+ }
+
+
+ /* SEARCH */
+ .search-container{
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .search{
+ box-shadow: rgba(0, 0, 0, 0.2) 0 0 8px 0px;
+ width: 350px;
+ border-radius: 4px;
+ margin-left: 50px;
+ }
+
+ .search input{
+  border: none;
+  outline: none;
+  padding: 10px;
+ }
+ 
+ .Region{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 8px 0px;
+  margin-right: 50px;
+  width: 200px;
+ }
+
+ /* Countrycards  */
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px;
+ }
+ 
+ #img{
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+ }
+
+ .items{
+  padding-left: 25px;
+  line-height: 20px;
+ }
+
+ span{
+  font-weight: 600;
+ }
+
+ #countryimages{
+  height: 320px;
+  width: 200px;
+  border-radius: 40px;
+  overflow: hidden;
+ }
+
+
+ 
